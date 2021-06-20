@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,span,a{
+    font-family: 'Poppins', sans-serif;
+}
+
+.primary-header{
+    background: #f0fff0 !important;
+}
+.primary-header img{
+    width:195px
+}
+
+.p-menu{}
+.p-menu a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #111;
+    transition: .4s;
+}
+.p-menu a:hover{
+    color: #606060;
+}
+
+.btn-primary{
+    font-size: 14px;
+    padding: 13px 30px;
+    border-radius: 30px;
+    background: #21B573 !important;
+    border-color: #339c6c !important;
+    transition: .4s;
+}
+.btn-primary:hover{
+    background: #42a177 !important;
+}
+
+/*Banner Section Css*/
+
+.banner-section{
+    background: #f0fff0;
+    padding: 110px 0;
+
+}
+.banner-left-content{}
+
+.banner-left-content h6{
+    color: #fd511a;
+}
+.banner-left-content h1{
+    font-size:46px;
+    color: #111;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top:26px;
+}
+.banner-left-content h2{
+    font-size: 46px;
+    color: #21B573;
+    font-weight: 700;
+}
+.banner-left-content p{
+    line-height: 36px;
+}
+.cstom{
+    border: 1px solid #111 !important;
+}
+
+/*Service Section*/
+
+.s-content img{
+    width: 80px;
+}
+.s-content h3{
+    color: #413960;
+    font-size: 24px;
+}
+.s-card{
+    background: #f8fffb;
+    transition: .4s;
+    cursor: pointer;
+}
+.s-card:hover{
+    box-shadow: 0 10px 20px -4px rgba(9, 3, 32, .2);
+    background-color: white;
+}
+
+
+
+.course-card{
+    padding:15px;
+    border-radius:15px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 20px -2px rgba(10, 1, 47, .2);
+    transition: .4s;
+}
+.course-card:hover{
+    box-shadow: 0px 0px 20px -2px rgba(10, 1, 47, .4);
+}
+.course-title h1{
+    color: #413960;
+    font-weight:800;
+}
+
+.diffrent-btn{
+    padding: 6px 30px;
+    background: #21b573 !important;
+}
+
+.c-buttom-icon{}
+.c-buttom-icon ul{
+    list-style: none;
+    padding-left: 0;
+}
+.c-buttom-icon ul li{}
+.c-buttom-icon ul li a{
+    text-decoration: none;
+    color: #606060;
+
+}
+.c-buttom-icon ul li span{
+    color: #606060;
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.testi-items img{
+    width: 130px;
+}
+.testi-items h1{
+    font-size:32px;
+    color: #111;
+    font-weight: 700;
+
+}
+
+.footer-section{
+    background: #282531;
+}
+.footer-section p{
+    color: white;
+}
+.f-title{
+}
+.f-title h3{
+    color: white;
+    font-size: 19px;
+    font-weight: 800;
+    border-bottom: 1px solid #ddd;
+    margin-top: 20px;
+    display: inline-block;
+    
+
+}
+.f-link{}
+.f-link ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top:10px;
+}
+.f-link ul li{}
+.f-link ul li a{
+    color: white;
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    transition: .4s;
+}
+.f-link ul li a:hover{
+    color: #21b573;
+}
+
+.footer-bottom p{
+    color: white;
+    padding-bottom: 0;
+    position: relative;
+    top: 40px;
+}
+
+
+
+/*Responsive css*/
+
+
+@media(max-width:600px) {
+    .banner-left-content h1{
+        font-size:35px;
+        color: #111;
+        font-weight: 600;
+        margin-bottom: 0;
+        margin-top:20px;
+    }
+}
+@media(max-width:600px) {
+    .banner-left-content h2{
+        font-size: 35px;
+        color: #21B573;
+        font-weight: 600;
+    }
+}
+@media(max-width:600px) {
+    .banner-left-content h6{
+        color: #fd511a;
+        font-size: 12px;
+}
+@media(max-width:600px) {
+    .banner-left-content p{
+        font-size: 14px;
+        line-height: 26px;
+}
+
+@media(max-width:510px) {
+    .banner-section{
+        padding:60px 0;
+    
+    }
+}
+@media(max-width:412px) {
+    .banner-left-content h1{
+        font-size:25px;
+    }
+}
+@media(max-width:412px) {
+    .banner-left-content h2{
+        font-size:25px;
+    }
+}
+@media(max-width:412px) {
+    .banner-left-content p{
+        font-size:10px;
+    }
+}
+@media(max-width:412px) {
+    .btn-primary{
+        font-size: 10px;
+        padding: 10px 24px;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:400px) {
+    .banner-section{
+        padding:40px 0;
+    
+    }
+}
